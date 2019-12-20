@@ -6,7 +6,7 @@ import cv2
 import imutils
 import time
 
-# construct the argument parse and parse the arguments
+#construct the argument parse and parse the arguments
 ap = argparse.ArsgumentParser()
 ap.add_argument("-v", "--video", help = "path to the (optional) video file")
 ap.add_argument("-b", "--buffer", type = int, default = 32, help = "max buffer size")
